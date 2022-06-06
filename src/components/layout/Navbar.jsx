@@ -10,6 +10,23 @@ const navLinks = [
     url: "/",
   },
   {
+    link: "Video",
+    url: "/videos",
+  },
+  {
+    link: "Project",
+    url: "/projects",
+  },
+  {
+    link: "Blog",
+    url: "/blogs",
+  },
+
+  {
+    link: "Faq",
+    url: "/faqs",
+  },
+  {
     link: "About",
     url: "/about",
   },

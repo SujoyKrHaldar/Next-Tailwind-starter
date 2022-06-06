@@ -1,10 +1,13 @@
+import Container from "./Container";
+
 function Footer() {
   return (
     <>
-      <div className="bg-[#1a1a1a] text-[#929292] py-6  mt-auto">
-        <div className="container">
+      <div className="bg-[#f0f0f0] text-[#000000] py-6  mt-auto">
+        <Container className="flex items-center justify-between gap-4">
           <p>Copyright ©{new Date().getFullYear()} - All rights reserved.</p>
-        </div>
+          <p>Normalized Nerd</p>
+        </Container>
       </div>
     </>
   );

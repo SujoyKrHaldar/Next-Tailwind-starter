@@ -1,13 +1,20 @@
+import Container from "../layout/Container";
+
 function Landing() {
   return (
     <>
       <div className="w-full h-[90vh]">
-        <div className="container w-full h-full flex items-center justify-start">
-          <div className="max-w-lg py-4">
-            <p className="mt-4 text-xl">Next tailwind starter</p>
-            <h1>Let's make the work flow easy and usefull.</h1>
+        <Container className="flex items-center justify-start">
+          <div className="max-w-xl py-4">
+            <p className="mt-4 text-xl">Hello, People from the future</p>
+            <h1>
+              I am <span className="font-bold">Sujan Dutta</span>{" "}
+              <span className="block">
+                aka the <span className="font-bold">Normalized Nerd</span>.
+              </span>
+            </h1>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

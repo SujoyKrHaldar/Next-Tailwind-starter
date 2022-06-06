@@ -32,13 +32,12 @@ a {
 }
 
 h1 {
-  font-size: 3.3rem;
-  font-weight: 700;
-  line-height: 3.5rem;
+  font-size: 2.7rem;
+  line-height: 3.3rem;
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 2.6rem;
 }
 p {
@@ -57,6 +56,5 @@ img {
 .btn {
   padding: 0.6rem 1.8rem 0.7rem;
   display: inline-block;
-  font-weight: 700;
-  border-radius: 9px;
+  font-weight: 400;
 }
