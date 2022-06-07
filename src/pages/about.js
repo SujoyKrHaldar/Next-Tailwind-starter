@@ -6,8 +6,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Next tailwind setup</title>
-        <meta name="description" content="Next tailwind setup for easy work." />
+        <title>Next tailwind starter</title>
+        <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -5,7 +5,7 @@ function BackgroundImage({ src, alt, className, position, objFit }) {
   const [isLoading, setLoading] = useState(true);
 
   return (
-    <div className="absolute inset-0 w-full h-full bg-black">
+    <div className="absolute inset-0 w-full h-full">
       <Image
         src={src}
         alt={alt}
